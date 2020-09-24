@@ -1,0 +1,13 @@
+.button {
+  cursor: pointer;
+  display: inline;
+  user-select: none;
+  padding: 6px 10px;
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  transition: var(--anim-dur) var(--anim-timing-func);
+
+  &:hover {
+    background-color: var(--link-hover-color);
+  }
+}

@@ -1,0 +1,22 @@
+:root[--theme="yuuko-best-girl"] {
+  --bg-color: rgb(30, 31, 36);
+  --font-color: rgb(220, 225, 230);
+
+  --link-hover-color: rgb(202, 1, 85);
+  // --link-hover-color: rgb(159, 166, 173);
+  --header-bg-color: rgba(20, 20, 22, 0.5);
+
+  --games-bg-color-hover: var(--header-bg-color);
+  --games-available-font-color: var(--link-hover-color);
+
+  /**
+   * PAGES
+   */
+
+  /**
+   * install-or-launch.vue
+   */
+  --install-or-launch-color-hover: rgb(22, 149, 233);
+  --install-or-launch-error-bg-color: rgba(112, 16, 16, 0.5);
+  --install-or-launch-bg-color: var(--header-bg-color);
+}

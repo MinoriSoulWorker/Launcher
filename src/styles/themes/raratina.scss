@@ -1,0 +1,16 @@
+:root {
+  --bg-color: rgb(29, 29, 29);
+  --font-color: rgb(194, 201, 207);
+  --progress-color: #00bfff;
+
+  --header-bg-color: #111111;
+  --header-font-color: #535353;
+  --header-link-bg-hover-color: rgba(194, 201, 207, 0.2);
+  --header-active-link-border-color: #00bfff;
+
+  --animation-very-short-time: 0.11s;
+  --animation-short-time: 0.33s;
+  --animation-middle-time: 0.77s;
+  --animation-long-time: 1.33s;
+  --animation-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}

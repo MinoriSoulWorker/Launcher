@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "release": "build",
     "build": "vue-cli-service electron:build",
     "serve": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
@@ -13,6 +14,9 @@
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0"
+  },
+  "publish": {
+    "releaseType": "release"
   },
   "devDependencies": {
     "@types/electron-devtools-installer": "^2.2.0",

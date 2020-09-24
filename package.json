@@ -15,8 +15,14 @@
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0"
   },
-  "publish": {
-    "releaseType": "release"
+  "build": {
+    "productName": "Minori SoulWorker Launcher",
+    "publish": [
+      {
+        "private": false,
+        "releaseType": "release"
+      }
+    ]
   },
   "devDependencies": {
     "@types/electron-devtools-installer": "^2.2.0",

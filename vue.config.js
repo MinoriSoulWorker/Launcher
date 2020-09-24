@@ -5,16 +5,28 @@ module.exports = {
   pluginOptions: {
     electronBuilder: {
       builderOptions: {
-        appId: 'msw.yuuko-amamiya',
-        win: {
-          icon: 'public/windows.ico'
-        },
+        appId: 'soulworker.minori',
         productName: "Minori SoulWorker Launcher",
+        win: {
+          icon: 'public/favicon.ico',
+          target: {
+            target: 'nsis',
+            arch: [
+              'x64',
+              'ia32'
+            ]
+          }
+        },
         publish: {
           provider: "github",
           owner: "MinoriSoulWorker",
           repo: "launcher",
-          releaseType: "release"
+          releaseType: "release",
+          publishAutoUpdate: true
+        },
+        nsis: {
+          oneClick: false,
+          allowToChangeInstallationDirectory: true
         }
       }
     }

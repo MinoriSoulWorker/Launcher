@@ -1,6 +1,10 @@
 {
   "name": "launcher",
   "version": "1.0.0",
+  "license": "WTFPL",
+  "author": {
+    "name": "Yuuko Amamiya"
+  },
   "private": false,
   "scripts": {
     "release": "build",
@@ -12,6 +16,7 @@
   "main": "background.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "electron-updater": "^4.3.5",
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0"
   },

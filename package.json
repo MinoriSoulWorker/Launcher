@@ -1,7 +1,7 @@
 {
   "name": "launcher",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "release": "build",
     "build": "vue-cli-service electron:build",

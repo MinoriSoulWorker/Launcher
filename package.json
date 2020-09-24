@@ -17,12 +17,12 @@
   },
   "build": {
     "productName": "Minori SoulWorker Launcher",
-    "publish": [
-      {
-        "private": false,
-        "releaseType": "release"
-      }
-    ]
+    "publish": {
+      "provider": "github",
+      "owner": "MinoriSoulWorker",
+      "repo": "launcher",
+      "releaseType": "release"
+    }
   },
   "devDependencies": {
     "@types/electron-devtools-installer": "^2.2.0",
